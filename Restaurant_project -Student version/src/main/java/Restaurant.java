@@ -67,6 +67,11 @@ public class Restaurant {
     }
 
     public int getMenuPriceSum(List<Item> items){
-        return 0;
+        int sum = 0;
+        for(int i=0; i< items.size(); i++){
+            Item currentItem = items.get(i);
+            sum += currentItem.getPrice();
+        }
+        return sum;
     }
 }
