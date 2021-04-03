@@ -72,6 +72,6 @@ class RestaurantTest {
         itemsList.add(item2);
         Item item3 = new Item("Sizzling brownie",300);
         itemsList.add(item3);
-        assertEquals(650, restaurant.getMenuPriceSum());
+        assertEquals(650, restaurant.getMenuPriceSum(itemsList));
     }
 }

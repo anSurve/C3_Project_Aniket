@@ -66,8 +66,7 @@ public class Restaurant {
         return name;
     }
 
-    public int getMenuPriceSum(){
+    public int getMenuPriceSum(List<Item> items){
         return 0;
     }
-
 }
